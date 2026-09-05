@@ -1,0 +1,33 @@
+/*
+ * Mizugame25 diagnostic keymap
+ *
+ * SW1    SW2    SW3    SW4    SW5
+ *  A      B      C      D      E
+ *
+ * SW6    SW7    SW8    SW9    SW10
+ *  F      G      H      I      J
+ *
+ * SW11   SW12   SW13   SW14   RE1
+ *  K      L      M      N      O
+ *
+ * ADSW1  ADSW2  ADSW3  ADSW4  ADSW5
+ *  P      Q      R      S      T
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp A  &kp B  &kp C  &kp D  &kp E
+                &kp F  &kp G  &kp H  &kp I  &kp J
+                &kp K  &kp L  &kp M  &kp N  &kp O
+                &kp P  &kp Q  &kp R  &kp S  &kp T
+            >;
+        };
+    };
+};

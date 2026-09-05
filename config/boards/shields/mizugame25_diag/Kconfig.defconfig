@@ -1,0 +1,6 @@
+if SHIELD_MIZUGAME25_DIAG
+
+config ZMK_KEYBOARD_NAME
+    default "Mizu25-DIAG"
+
+endif
